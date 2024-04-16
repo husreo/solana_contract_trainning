@@ -1,12 +1,12 @@
 [package]
-name = "first"
+name = "staking-first"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "first"
+name = "staking_first"
 
 [features]
 no-entrypoint = []
@@ -16,4 +16,4 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.29.0"
+anchor-lang = "0.27.0"

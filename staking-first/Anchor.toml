@@ -1,11 +1,8 @@
-[toolchain]
-
 [features]
 seeds = false
 skip-lint = false
-
 [programs.localnet]
-first = "FomZuPR1nh4ZjAdaQ6e47tgbdPtKUmQ8o9TLvV2smjW"
+staking_first = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
 
 [registry]
 url = "https://api.apr.dev"
